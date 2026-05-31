@@ -1,0 +1,73 @@
+
+/* What is CSS? */
+/* CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation
+of a document written in HTML or XML. CSS defines how elements should be displayed on screen, on paper, or in other media. */
+
+/* Good CSS improves UX */
+/* CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. */
+/* CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. */
+
+
+h1{ 
+    color: #410303;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: underline;
+    font-variant: small-caps;
+    text-align:center;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #237310;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* ID's start with a # and are unique to a single element. */
+#f1-teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Classes start with a . and can be applied to multiple elements. */
+.highlight {
+   background: orange;
+
+}
+
+/* float: left; - floats the element to the left of its container. */
+/* float: right; - floats the element to the right of its container. */ 
+/* float: none; - the element will not float and will be displayed in the normal flow of the document. */
+/* clear: left; - prevents elements from flowing around a floated element on the left side. */
+/* clear: right; - prevents elements from flowing around a floated element on the right side. */
+
+.container {
+    display: flex; /* This will make the container a block-level element */
+    width: 100%;
+    overflow: hidden; /* This will clear the floats inside the container */
+}
+
+.metro {
+  display: flex;
+    flex-wrap: wrap;
+.col {
+  flex: 1;
+}
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Margin and padding are used to create space around elements. */
+/* Margin is the space outside an element, while padding is the space inside an element. */
+
+div {
+    margin: 20px; /* This will create a 20px margin around the div element */
+    padding: 10px; /* This will create a 10px padding inside the div element */
+}
